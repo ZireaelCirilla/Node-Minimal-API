@@ -10,6 +10,7 @@ firebase.initializeApp({
 });
 
 const usersRouter = require('./src/users')
+const tweetsRouter = require('./src/tweets')
 
 //Use all your middlewares
 app.use(express.json())
